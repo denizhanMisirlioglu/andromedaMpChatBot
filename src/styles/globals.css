@@ -1,9 +1,9 @@
+/* globals.css */
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Arial, sans-serif; /* Use a clean font */
 }
 
 a {
@@ -13,6 +13,15 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+body {
+  background-color: #f4f4f4; /* Light background for contrast */
+  color: #333; /* Dark text for readability */
+}
+
+button {
+  border-radius: 4px; /* Rounded buttons */
 }
 
 @media (prefers-color-scheme: dark) {

@@ -28,7 +28,8 @@
       {
         "name": "next"
       }
-    ]
+    ],
+    "types": ["bn.js", "long", "parse-json", "pbkdf2", "secp256k1", "through", "tinycolor2", "yargs-parser"]
   },
   "include": [
     "next-env.d.ts",
